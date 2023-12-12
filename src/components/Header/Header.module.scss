@@ -1,0 +1,39 @@
+.container {
+  width: 100%;
+  background-color: #3a178f;
+  border-bottom: 0.5px solid #afafaf;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5% 5%;
+}
+
+.containerLogo {
+  display: flex;
+  align-items: center;
+  gap: 15%;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo {
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoImage {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.menu {
+  width: 70%;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  a + a {
+    margin-left: 20%;
+  }
+}
