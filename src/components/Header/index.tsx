@@ -19,7 +19,7 @@ export default function Header() {
         </div>
         <div className={styles.menu}>
           <Link href="./calculator">Calculator</Link>
-          <Link href="/">Timer</Link>
+          <Link href="./timer">Timer</Link>
           <Link href="/">IMC</Link>
         </div>
       </div>

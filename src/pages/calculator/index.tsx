@@ -5,7 +5,7 @@ import styles from './Calculator.module.scss'
 export default function Calculadora() {
   const [result, setResult] = useState("");
 
-  const handleClick = (e) => {
+  const handleClick = (e: any) => {
     setResult(result.concat(e.target.name));
   }
 
