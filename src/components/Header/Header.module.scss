@@ -28,6 +28,9 @@
   width: 55px;
   height: 55px;
   border-radius: 50%;
+  border: 2px solid $colorTimer1-color;
+  color: $colorTimer1-color;
+  box-shadow: 0px 0px 35px $colorTimer1-color, 0px 0px 15px $colorTimer2-color inset;
 }
 
 .menu {
