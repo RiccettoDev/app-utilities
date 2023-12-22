@@ -1,0 +1,64 @@
+@import '/src/styles/mixins/colors.scss';
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.subContainer {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+}
+
+.input {
+  width: 15%;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 1% 1% 1% 1%;
+  padding: 0.5%;
+  text-align: center;
+  border: 2px solid $colorIMC1-color;
+  color: $colorIMC1-color;
+  box-shadow: 0px 0px 35px $colorIMC1-color, 0px 0px 15px $colorIMC2-color inset;
+}
+
+.button {
+  width: 10%;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0% 2% 1% 2%;
+  padding: 0.5%;
+  border-radius: 5%;
+  background-color: $colorIMC3-color;
+}
+
+.index {
+  background-color: $colorIMC3-color;
+  width: 80%;
+  border-radius: 5%;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.item {
+  margin-bottom: 1%;
+}
+
+.result {
+  border: 2px solid $colorIMC1-color;
+  color: $colorIMC1-color;
+  box-shadow: 0px 0px 35px $colorIMC1-color, 0px 0px 15px $colorIMC2-color inset;
+  margin-bottom: 2%;
+  padding: 0.5%;
+  font-weight: bold;
+}

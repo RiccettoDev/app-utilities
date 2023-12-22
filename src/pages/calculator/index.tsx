@@ -9,7 +9,7 @@ export default function Calculadora() {
     setResult(result.concat(e.target.name));
   }
 
-  const clear = () => {
+  const clean = () => {
     setResult("");
   }
 
@@ -39,7 +39,7 @@ export default function Calculadora() {
                 </div>
               </div>
               <div className={styles.containerLine}>
-                <button className={styles.buttonNumberSpecialBig} id="clear" onClick={clear}>Clear</button>
+                <button className={styles.buttonNumberSpecialBig} id="clean" onClick={clean}>Clean</button>
                 <button className={styles.buttonNumberSpecial} id="back" onClick={back}>c</button>
                 <button className={styles.buttonNumberSpecial} name="/" onClick={handleClick}>&divide;</button>
               </div>
