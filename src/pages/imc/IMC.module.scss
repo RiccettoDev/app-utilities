@@ -54,6 +54,15 @@
   margin-bottom: 1%;
 }
 
+.itemPress {
+  border: 2px solid $colorIMC1-color;
+  color: $colorIMC1-color;
+  box-shadow: 0px 0px 35px $colorIMC1-color, 0px 0px 15px $colorIMC2-color inset;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-weight: bold;
+}
+
 .result {
   border: 2px solid $colorIMC1-color;
   color: $colorIMC1-color;
