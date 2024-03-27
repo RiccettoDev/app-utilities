@@ -42,3 +42,16 @@
     margin-left: 20%;
   }
 }
+
+@media screen and (max-width: 1080px){
+
+  .menu{
+    width: 100%;
+    font-size: 20px;
+    margin-left: 2em;
+    a + a {
+      margin-left: 10%;
+    }
+  }
+ 
+}

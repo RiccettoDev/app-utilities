@@ -10,11 +10,12 @@ export default function Header() {
     <nav>
       <div className={styles.container}>
         <div className={styles.containerLogo}>
-          <div className={styles.logo}>
-            <Image src={Logo} alt='logo' className={styles.logoImage}/>
-          </div>
           <div>
-            <Link href="/">Utilities</Link>
+            <Link href="/">
+              <div className={styles.logo}>
+                <Image src={Logo} alt='logo' className={styles.logoImage}/>
+              </div>
+            </Link>
           </div>
         </div>
         <div className={styles.menu}>

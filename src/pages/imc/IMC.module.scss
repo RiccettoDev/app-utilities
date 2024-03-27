@@ -71,3 +71,34 @@
   padding: 0.5%;
   font-weight: bold;
 }
+
+@media screen and (max-width: 1080px){
+
+  .input{
+    margin-top: 1em;
+    width: 100%;
+  }
+
+  .button{
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .subContainer{
+    width: 100%;
+    margin-top: 2em;
+    font-size: 12px;
+  }
+
+  .result{
+    margin-top: 2em;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container{
+    margin-bottom: 2em;
+  }
+
+}

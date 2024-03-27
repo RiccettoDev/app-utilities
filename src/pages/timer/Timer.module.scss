@@ -68,3 +68,57 @@
   background-color: $colorTimer3-color;
   opacity: 80%;
 }
+
+@media screen and (max-width: 1080px){
+
+  .timerImage{
+    margin-top: 6em;
+    width: 300px;
+  }
+
+  .circle{
+    width: 280px;
+    height: 280px;
+    margin-top: 6.2em;
+  }
+
+  .containerButton{
+    margin-top: 2em;
+  }
+
+  .button{
+    width: 30%;
+  }
+
+  .button:hover {
+    width: 30%;
+  }
+
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1350px){
+
+  .timerImage{
+    margin-top: 1em;
+    width: 300px;
+  }
+
+  .circle{
+    width: 280px;
+    height: 280px;
+    margin-top: 1.2em;
+  }
+
+  .containerButton{
+    margin-top: 2em;
+  }
+
+  .button{
+    width: 30%;
+  }
+
+  .button:hover {
+    width: 30%;
+  }
+
+}
