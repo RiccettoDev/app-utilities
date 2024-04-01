@@ -1,14 +1,14 @@
-Click here to change the language:
+Clique aqui para alterar o idioma:
 
 [![flag-eua](./src/img/eua.png)](./README.md) [![flag-brasil](./src/img/brasil.png)](./README-pt-br.md)
 
 # APP - Utilities
 
-The **AppUtilities**, an application developed in Next.js, offers a variety of daily utilities, including a calculator, Body Mass Index (BMI) calculator, and timer, all within a responsive and accessible layout. With smooth and interactive animations, the **AppUtilities** provides an enhanced user experience, making daily tasks easier and more efficient for all users.
+O **AppUtilities**, uma aplicação desenvolvida em Next.js que oferece uma variedade de utilidades diárias, incluindo calculadora, cálculo do Índice de Massa Corporal (IMC) e timer, tudo em um layout responsivo e acessível. Com animações suaves e interativas, o **AppUtilities** proporciona uma experiência de usuário aprimorada, facilitando as tarefas cotidianas e tornando-as mais eficientes para todos os usuários.
 
 <br>
 
-:computer: [Click here to access the application](https://app-utilities.vercel.app/)
+:computer: [Clique aqui para acessar a aplicação](https://app-utilities.vercel.app/)
 
 <br>
 
@@ -29,7 +29,7 @@ The **AppUtilities**, an application developed in Next.js, offers a variety of d
 
 <br>
 
-## Technologies
+## Tecnologias
 
 ![Static Badge](https://img.shields.io/badge/React-242424?style=for-the-badge&logo=react&logoColor=00d9ff&labelColor=242424)
 ![Static Badge](https://img.shields.io/badge/JavaScript-242424?style=for-the-badge&logo=javascript&logoColor=ffff00&labelColor=242424)
@@ -46,30 +46,30 @@ The **AppUtilities**, an application developed in Next.js, offers a variety of d
 ![Static Badge](https://img.shields.io/badge/Git-ec6231?style=for-the-badge&logo=git&logoColor=fff&labelColor=ec6231)
 ![Static Badge](https://img.shields.io/badge/vercel-242424?style=for-the-badge&logo=vercel&logoColor=fff&labelColor=242424)
 
-## Dependencies:
+## Dependencias:
 
 - next;
 - react;
 - react-dom;
 - sass;
 
-## Getting Started
+## Começando
 
-This project can be used on your own machine after performing a **PUSH** of this repository.
+Este projeto pode ser usado em sua própria máquina após realizar um **PUSH** deste repositório.
 
 ### `npm install`
 
-To download and update all project libraries and dependencies
+Para baixar e atualizar todas as bibliotecas e dependências do projeto
 
 ### `npm run dev`
 
-Runs the application in development mode.
-Open http://localhost:3000 to view it in your browser.
+Executa aplicativo em modo desenvolvimento.\
+Abra [http://localhost:3000/](http://localhost:3000/) para vizualizá-lo em seu navegador.
 
-The page will reload when you make changes.
-You may also see any lint errors in the console.
+A pagina será recarregada quando você fizer alterações.\
+Você também pode ver quaisquer erros de lint no console.
 
-## Contact
+## Contato
 
 <div>
   <a href="https://portfolio-ten-lime-67.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/portifolio-FF0000?style=for-the-badge&logo=unitednations&logoColor=white" target="_blank"></a>
